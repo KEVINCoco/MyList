@@ -10,7 +10,7 @@ const VueLoaderPlugin = require('vue-loader/lib/plugin')
 
 module.exports = {
     // 编译模式
-    mode: "development", //development | production
+    mode: "production", //development | production
     entry: path.join(__dirname, './src/index.js'),
     output: {
         path: path.join(__dirname, './dist'), // 输出文件存放路径
