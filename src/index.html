@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MyList——我的记事本</title>
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+<header>
+    <label for="title">MyList</label>
+    <input type="text" id="title" placeholder="请输入要做的事" required="required" autocomplete="off">
+</header>
+<section>
+    <h2>正在进行 <span id="todocount"></span></h2>
+    <ol id="todolist" class="demo-box"></ol>
+    <h2>已经完成 <span id="donecount"></span></h2>
+    <ul id="donelist"></ul>
+</section>
+<footer>
+    Copyright &copy; 2020 mylist.cn
+</footer>
+</body>
+</html>

@@ -1,0 +1,155 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #cfccca;
+}
+
+
+/* header区域 */
+header {
+    height: 50px;
+    background-color: #474545;
+    position: relative;
+}
+
+label {
+    position: absolute;
+    left: 30%;
+    line-height: 50px;
+    font-size: 25px;
+    color: #DDD;
+    cursor: pointer;
+}
+
+header input {
+    position: absolute;
+    right: 30%;
+    width: 30%;
+    height: 25px;
+    margin-top: 10px;
+    text-indent: 12px;
+    border-radius: 5px;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.45) inset;
+}
+
+input:focus {
+    outline-width: 0;
+}
+
+
+/* section区域 */
+section {
+    margin: 0 auto;
+}
+
+h2 {
+    position: relative;
+}
+
+span {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    display: inline-block;
+    padding: 0 5px;
+    height: 20px;
+    border-radius: 20px;
+    background-color: #f4efef;
+    color: #666;
+    font-size: 14px;
+}
+
+ol,
+ul {
+    padding: 0;
+    list-style: none;
+}
+
+li {
+    height: 32px;
+    line-height: 32px;
+    background: #fff;
+    position: relative;
+    margin-bottom: 10px;
+    padding: 0 45px;
+    border-radius: 3px;
+    border-left: 5px solid #006e93;
+    border-right: 5px solid #006e93;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07);
+}
+
+li input {
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    width: 22px;
+    height: 22px;
+    cursor: pointer;
+}
+
+p {
+    margin: 0;
+}
+
+li p input {
+    top: 3px;
+    left: 40px;
+    width: 70%;
+    height: 20px;
+    line-height: 14px;
+    text-indent: 5px;
+    font-size: 14px;
+}
+
+ol li {
+    cursor: move;
+}
+
+ul li {
+    border-left: 5px solid #999;
+    border-right: 5px solid #999;
+    opacity: 0.5;
+}
+
+li a {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    display: inline-block;
+    width: 14px;
+    height: 12px;
+    border-radius: 14px;
+    border: 6px double #FFF;
+    background: #CCC;
+    line-height: 14px;
+    text-align: center;
+    color: #FFF;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+footer {
+    font-size: 16px;
+    color: #535353;
+    text-align: center;
+}
+
+@media screen and (max-device-width: 620px) {
+    section {
+        width: 96%;
+        padding: 0 2%;
+    }
+}
+
+@media screen and (min-width: 620px) {
+    section {
+        width: 600px;
+        padding: 0 10px;
+    }
+}
